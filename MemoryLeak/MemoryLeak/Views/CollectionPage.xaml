@@ -29,6 +29,7 @@
             Grid.Row="2">
 
             <CollectionView
+                x:Name="Collection1"
                 ItemsSource="{Binding Posts}">
 
                 <CollectionView.ItemTemplate>
@@ -51,6 +52,7 @@
             Grid.Row="3">
 
             <CollectionView
+                x:Name="Collection2"
                 ItemsSource="{Binding Posts1}">
 
                 <CollectionView.ItemTemplate>
@@ -73,6 +75,7 @@
             Grid.Row="4">
 
             <CollectionView
+                x:Name="Collection3"
                 ItemsSource="{Binding Posts2}">
 
                 <CollectionView.ItemTemplate>
